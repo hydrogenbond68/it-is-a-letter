@@ -1,0 +1,14 @@
+function printMessage(message) {
+    console.log(message);
+}
+
+function sendMessage(message, callBack) {
+
+    console.log("Processing message:");
+
+    callBack(message)
+}
+
+const message = "Hello, World!";
+
+sendMessage(message, printMessage);
