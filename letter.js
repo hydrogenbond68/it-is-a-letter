@@ -4,4 +4,4 @@ function isLetter(ch) {
 
 console.log(isLetter('A')); // true
 console.log(isLetter('@')); // false
-console.log(isLetter('5')); // false
+console.log(isLetter('4567')); // false
